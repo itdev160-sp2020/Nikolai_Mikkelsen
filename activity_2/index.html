@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Activity 1</title>
+    <link rel="stylesheet" href="main.css">
+    <!--Link to style sheet-->
+</head>
+<body>
+    <header><img src="benny.jpg" alt="Photo of Benny" /><h2>This is my dog Benny</h2><h3>Didn't specify a picture so thought he would do.</h3></header>
+
+
+    <table id="simple">
+        <tr>
+            <th></th>
+            <th scope="col">Column 1</th>
+            <th scope="col">Column 2</th>
+
+        </tr>
+        <tr>
+            <th scope="row">Row 1</th>
+            <td>Data1</td>
+            <td>Data2</td>
+        </tr>
+        <tr>
+            <th scope="row">Row 2</th>
+            <td>Data3</td>
+            <td>Data4</td>
+        </tr>
+
+    </table>
+
+
+
+    <br />
+    <table id="complex">
+        <thead>
+
+            <tr>
+                <th id="complex" scope="col"></th>
+                <th id="complex" scope="col">Column 1</th>
+                <th id="complex" scope="col">Column 2</th>
+                <th id="complex" scope="col">Column 3</th>
+                <th id="complex" scope="col">Column 4</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="complex" scope="row">Row 1</th>
+                <td id="complex">Data1</td>
+                <td id="complex">Data2</td>
+                <td id="complex" td rowspan="2">Data3 and Data7</td>
+                <td id="complex">Data4</td>
+            </tr>
+            <tr>
+                <th id="complex" scope="row">Row 2</th>
+                <td id="complex">Data5</td>
+                <td id="complex">Data6</td>
+                <td id="complex">Data8</td>
+            </tr>
+            <tr>
+                <th id="complex" scope="row">Row 3</th>
+                <td id="complex" td colspan="2">Data9 and Data10</td>
+                <td id="complex">Data11</td>
+                <td id="complex">Data12</td>
+            </tr>
+            <tr>
+                <th id="complex" scope="row">Row 4</th>
+                <td id="complex">Data13</td>
+                <td id="complex">Data14</td>
+                <td id="complex">Data15</td>
+                <td id="complex">Data16</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="complex" scope="row"></td>
+                <td id="complex">DataResult1</td>
+                <td id="complex">DataResult2</td>
+                <td id="complex">DataResult3</td>
+                <td id="complex">DataResult4</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+    <footer>
+        <p>
+            <strong>
+                Email: <a href="mailto:mikkelsn@gmatc.matc.edu?subject= Contact Request" target="_blank">
+                    Click here to contact!
+                    <!--Email link, also opens new tab-->
+                </a>
+            </strong>
+        </p>
+    </footer>
+
+</body>
+
+</html>
+
